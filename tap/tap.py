@@ -742,4 +742,4 @@ class Tap(ArgumentParser):
         :param d: A dictionary of arguments.
         """
         self.__init__()
-        self.from_dict(d)
+        self.from_dict(d, skip_unsettable = True)
